@@ -1,10 +1,14 @@
+body {
+    background-image: url('./main-bg.jpg');
+    padding-bottom: 86px;
+}
+
 .navbar.navbar-default {
     margin-bottom: 0;
 }
 
 /* Content Styling */
 .content {
-    background-image: url('./main-bg.jpg');
     min-height: 560px;
     padding-bottom: 40px;
 }
@@ -16,12 +20,6 @@
     display: inline-block;
     margin-top: 38px;
     box-sizing: border-box;
-    vertical-align: top;
-}
-
-.content .box.left {
-    width: 648px;
-    margin-right: 40px;
 }
 
 .content .box.left h2 {
@@ -107,11 +105,6 @@
 }
 
 /* Right side styling */
-.content .box.right {
-    width: 268px;
-    height: 200px;
-}
-
 .content .box.right h3 {
     font-family: 'Georgia', Times, Times New Roman, serif;
     font-weight: bold;
@@ -131,6 +124,9 @@
 }
 
 footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     min-height: 94px;
     border-top: 8px solid #4aaaa5;
     background-color: #666666;
