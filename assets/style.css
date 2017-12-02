@@ -1,6 +1,6 @@
 body {
     background-image: url('./main-bg.jpg');
-    padding-bottom: 86px;
+    padding: 51px 0 86px 0;
 }
 
 .navbar.navbar-default {
@@ -20,6 +20,7 @@ body {
     display: inline-block;
     margin-top: 38px;
     box-sizing: border-box;
+    width: 100%;
 }
 
 .content .box.left h2 {
@@ -56,14 +57,14 @@ body {
     text-align: center;
     font-size: 22px;
     line-height: 60px;
-    font-family: 'Georgia', Times, Times New Roman, serif;
     height: 60px;
-    width: 274px;
+    width: 100%;
     left: 0;
     top: 135px;
     color: #ffffff;
     background-color: #4aaaa5;
     background-color: rgba(74, 170, 165, .85); /* It'll fall back to above if no browser support*/
+    border-radius: 0;
 }
 
 .content.portfolio .box.left a.portfolio-item:nth-child(even) {
