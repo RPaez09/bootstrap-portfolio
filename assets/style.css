@@ -33,6 +33,21 @@ body {
     margin-bottom: 20px;
 }
 
+/* Right side styling */
+.content .box.right h3 {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    font-weight: bold;
+    font-size: 22px;
+    color: #4aaaa5;
+    border-bottom: 2px solid #eeeeee;
+    padding-bottom: 24px;
+    margin-bottom: 22px;
+}
+
+.content .box.right a img {
+    margin-bottom: 15px;
+}
+
 /* About Styling */
 .content.about .box.left img {
     float: left;
@@ -103,25 +118,6 @@ body {
     line-height: 40px;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-weight: bold;
-}
-
-/* Right side styling */
-.content .box.right h3 {
-    font-family: 'Georgia', Times, Times New Roman, serif;
-    font-weight: bold;
-    font-size: 22px;
-    color: #4aaaa5;
-    border-bottom: 2px solid #eeeeee;
-    padding-bottom: 24px;
-    margin-bottom: 22px;
-}
-
-.content .box.right a {
-    margin-right: 6px;
-}
-
-.content .box.right a:last-child {
-    margin-right: 0;
 }
 
 footer {
